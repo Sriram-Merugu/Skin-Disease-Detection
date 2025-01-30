@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <link rel="stylesheet" href="/static/result.css">
+
+</head>
+<body>
+
+    <div class="result-container">
+        <div class="result-card">
+            <h1>Classification Result</h1>
+            <p><strong>Filename:</strong> {{ filename }}</p>
+            <p><strong>Classified Label:</strong> {{ label }}</p>
+
+            <h2>Description:</h2>
+            <div class="description">
+                <p>{{ description }}</p>
+            </div>
+
+            <h3>Recommendations:</h3>
+            <div class="recommendations">
+                {% if recommendations %}
+                    <ul>
+                        {% for key, recommendation in recommendations.items() %}
+                            <li><strong>{{ key }}:</strong> {{ recommendation }}</li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p>No recommendations available.</p>
+                {% endif %}
+            </div>
+
+            <a href="/" class="btn-back">Upload Another Image</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+{
+  "Nevi": {
+    "Description": "Commonly known as moles, these are benign growths of melanocytes.",
+    "Recommendations": {
+      "Observation": "Regular monitoring for any changes in size, shape, color, or texture.",
+      "Removal": "If a mole is causing irritation or cosmetic concerns, it can be removed via excision or laser treatment.",
+      "Prevention": "Avoid excessive sun exposure and use sunscreen with a high SPF to prevent new moles from forming.",
+      "Self-examination": "Regularly check moles for any changes (ABCDE rule: Asymmetry, Border irregularity, Color variation, Diameter larger than 6mm, Evolving)."
+    }
+  },
+  "Melanoma": {
+    "Description": "A malignant tumor of melanocytes, potentially life-threatening if not detected early.",
+    "Recommendations": {
+      "Surgical Excision": "Immediate removal with a margin of normal tissue around the tumor.",
+      "Lymph Node Biopsy": "To check if cancer has spread.",
+      "Immunotherapy": "Use of drugs to stimulate the immune system to attack cancer cells.",
+      "Targeted Therapy": "Medications that target specific genes or proteins involved in melanoma.",
+      "Radiation Therapy": "Used in advanced cases to target specific areas.",
+      "Prevention": "Regular skin checks, avoiding tanning beds, wearing protective clothing, and using broad-spectrum sunscreen."
+    }
+  },
+  "normal": {
+    "Description": "No disease detected. Skin appears healthy.",
+    "Recommendations": {
+      "Skin Care": "Maintain regular skin hygiene and moisturizing.",
+      "Protection": "Use sunscreen to prevent UV damage.",
+      "Healthy Lifestyle": "Consume a balanced diet and stay hydrated to support skin health."
+    }
+  },
+  "Benign Keratosis Like Lesions": {
+    "Description": "Includes seborrheic keratoses, solar lentigines, and lichen planus-like keratoses.",
+    "Recommendations": {
+      "Observation": "Often requires no treatment unless symptomatic or for cosmetic reasons.",
+      "Cryotherapy": "Freezing the lesion with liquid nitrogen.",
+      "Curettage": "Scraping the lesion off the skin.",
+      "Laser Therapy": "Using laser to remove the lesion.",
+      "Topical Treatments": "Such as alpha-hydroxy acids or retinoids for milder cases.",
+      "Prevention": "Use of sunscreen to protect against sun damage, regular skin moisturizing."
+    }
+  },
+  "Basal Cell Carcinoma": {
+    "Description": "The most common type of skin cancer, arising from basal cells.",
+    "Recommendations": {
+      "Surgical Excision": "Removal of the cancerous tissue.",
+      "Mohs Surgery": "A precise surgical technique that removes cancerous cells layer by layer.",
+      "Topical Treatments": "Such as imiquimod or 5-fluorouracil for superficial BCC.",
+      "Radiation Therapy": "For cases where surgery is not an option.",
+      "Cryotherapy": "Freezing the tumor.",
+      "Prevention": "Regular skin checks, avoiding excessive sun exposure, using sunscreen, wearing protective clothing."
+    }
+  },
+  "Actinic Keratoses": {
+    "Description": "Precancerous lesions caused by sun damage, can develop into squamous cell carcinoma.",
+    "Recommendations": {
+      "Cryotherapy": "Freezing the lesion with liquid nitrogen.",
+      "Topical Treatments": "Such as 5-fluorouracil, imiquimod, or diclofenac gel.",
+      "Photodynamic Therapy": "Using light-activated drugs to destroy abnormal cells.",
+      "Curettage and Electrosurgery": "Scraping and burning the lesion.",
+      "Prevention": "Regular skin checks, wearing sun-protective clothing, using broad-spectrum sunscreen, avoiding peak sun hours."
+    }
+  },
+  "Vascular Lesions": {
+    "Description": "Includes cherry angiomas, hemangiomas, and pyogenic granulomas.",
+    "Recommendations": {
+      "Observation": "Many vascular lesions do not require treatment.",
+      "Laser Therapy": "Using laser to remove or reduce the size of the lesion.",
+      "Electrosurgery": "Burning the lesion off with electrical current.",
+      "Cryotherapy": "Freezing the lesion.",
+      "Prevention": "Generally, no specific preventive measures; maintaining healthy skin through good skincare practices."
+    }
+  },
+  "Dermatofibroma": {
+    "Description": "A common benign fibrous nodule, usually resulting from a minor injury.",
+    "Recommendations": {
+      "Observation": "Often does not require treatment unless symptomatic.",
+      "Surgical Excision": "Removal if the lesion is painful or bothersome.",
+      "Cryotherapy": "Freezing the lesion.",
+      "Prevention": "No specific preventive measures; maintaining healthy skin."
+    }
+  }
+}

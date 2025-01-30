@@ -1,0 +1,108 @@
+   /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+            color: #333;
+        }
+        .result-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Result Card */
+        .result-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 700px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .result-card h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .result-card p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .result-card h2, .result-card h3 {
+            font-size: 1.6em;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+
+        /* Description and Recommendations Styling */
+        .description {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .recommendations ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .recommendations li {
+            background: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            font-size: 1.1em;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .recommendations li:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Back Button */
+        .btn-back {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.2em;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-back:hover {
+            background-color: #45a049;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .result-card {
+                padding: 15px;
+            }
+
+            .result-card h1 {
+                font-size: 2em;
+            }
+
+            .result-card h2, .result-card h3 {
+                font-size: 1.4em;
+            }
+
+            .recommendations li {
+                font-size: 1em;
+            }
+        }
